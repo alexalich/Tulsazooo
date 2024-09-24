@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.navbar {
+    background-color: #F57618;
+}
+
+
+.logo {
+    max-width: 100px;  
+    height: auto;       
+    display: block;     
+}
+
+.navbar {
+    background-color: #F57618; 
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #EFCF11; 
+}
+
+.navbar-toggler-icon {
+    background-color: #F57618;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    vertical-align: middle;
+}

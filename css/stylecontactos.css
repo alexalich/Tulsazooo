@@ -1,0 +1,148 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #F57618;
+}
+
+
+.logo {
+    max-width: 100px;   
+    height: auto;       
+    display: block;     
+}
+
+.navbar {
+    background-color: #F57618; 
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #EFCF11; 
+}
+
+.navbar-toggler-icon {
+    background-color: #F57618;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;  
+    height: auto;  
+}
+
+.header-img {
+    width: 100%;  
+    height: auto;  
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    color: white;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3rem;  
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+.venues-section {
+    background-color: #EFCF11;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.venues-section h2 {
+    margin-bottom: 30px;
+    font-family: "Modak", system-ui;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.259);
+      
+}
+
+.venue {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.venue img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.venue-title {
+    background-color: #35B3C2;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #2d2c2c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    font-size: 1.75rem;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea, input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="date"] {
+    border: 1px solid #ccc;
+}
+
+button.btn-warning {
+    background-color: #f57618;
+    border: none;
+    font-size: 1rem;
+    font-family: "Modak", system-ui;
+    letter-spacing: 2px;
+    color: white;
+}
+
+button.btn-warning:hover {
+    background-color: #f99040;
+}
+
+.nav-linkbtnbtn-warning {
+    font-weight: bold;
+}
