@@ -1,0 +1,148 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #F57618;
+}
+
+
+.logo {
+    max-width: 100px;  
+    height: auto;       
+    display: block;     
+}
+
+.navbar {
+    background-color: #F57618; 
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #EFCF11; 
+}
+
+.navbar-toggler-icon {
+    background-color: #F57618;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.masthead{
+  background-size: cover;  
+  min-height:  80vh; 
+  position: relative;
+}
+
+h1{
+    font-family:'Modak' ;
+    font-size: 6rem;
+color: #fff;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.537);
+}
+
+.color-overlay{
+    position: relative;
+    left: -200px;
+    top: 100px;
+}
+
+.btn-lg {
+    position: relative;
+    top: 80px;
+    left: 250px;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: #ffc107; 
+    color: #343a40; 
+    border-radius: 50px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-lg:hover {
+    background-color: #e0a800; 
+    transform: scale(1.05); 
+}
+
+.footer-section h3 {
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-bottom a {
+    color: #fff;
+}
+
+.footer-container {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+}
+
+.info-item i {
+    font-size: 2rem;
+    color: #ff6f00;
+}
+
+p{
+    font-weight: bold;
+
+}
+
+.item3{
+    background-color: #CBD518;   
+    display: flex;
+}
+
+.footer-section h3 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer-container {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+

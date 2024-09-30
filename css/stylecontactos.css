@@ -146,3 +146,33 @@ button.btn-warning:hover {
 .nav-linkbtnbtn-warning {
     font-weight: bold;
 }
+
+.footer-section h3 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer-container {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    font-size: 12px;
+}

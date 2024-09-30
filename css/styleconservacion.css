@@ -1,0 +1,115 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #F57618;
+}
+
+
+.logo {
+    max-width: 100px;  
+    height: auto;       
+    display: block;     
+}
+
+.navbar {
+    background-color: #F57618; 
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #EFCF11; 
+}
+
+.navbar-toggler-icon {
+    background-color: #F57618;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.262);
+    height: 100%;
+    width: 100%;
+}
+
+.hero-section h1 {
+    font-family: 'Modak', cursive;
+    font-size: 5rem;
+}
+
+
+.card {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    font-family: 'Modak', cursive;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+}
+
+a.text-white {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+a.text-white:hover {
+    text-decoration: underline;
+}
+
+.footer-section h3 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer-container {
+    background-color: #000;
+    color: white;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+

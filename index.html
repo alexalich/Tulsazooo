@@ -1,112 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Demo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  type="text/css"  href="css/cssgrid.css">
-    <title>Document</title>
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cssindex.css">
+    <style>body>script+div[style^="text"]{display:none}html,body {overflow-x:hidden!important}</style>
 </head>
+
 <body>
-    <div id="container-grid">
-
-    <div class="item0">
-        <img src="img/logo.png" alt="logo">
-    </div>
-
-    <div class="item1">
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="cosas que hacer.html">Cosas que hacer</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="animales.html">Animales</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
-                <li class="tiquetes"><a href="tiquetes.html">Tiquetes</a></li>
-            </ul>
-    </div>
-
-    <div class="item2">
-        <div class="item2">
-            <div class="overlay-content">
-                <h1>Conoce a Dumbo el Zorro Fénnec</h1>
-                <a href="animales.html" class="btn-mas-info">Más info</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mapa.html">Mapa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conservacion.html">Conservación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animales.html">Animales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning text-dark" href="tiquetes.html">Tiquetes</a>
+                    </li>
+                </ul>
             </div>
-            <img src="img/Copia de zorro.png" alt="zorro_img">
         </div>
-    
+    </nav>
+
+    <div 
+    class="masthead"
+    style="background-image: url('./img/fondoo index.png');"
+    >
+        <div class="color-overlay d-flex justify-content-center align-items-center">
+            <h1 class="display-flex">Conoce a<br>Dumbo el<br>Zorro Fénec</h1>
+        </div>
+        <a href="animales.html" class="btn btn-warning btn-lg">Más info</a>
+        </div>
+    </div>
 
     <div class="item3">
-        <div class="info-item">
-            <i class="fa-regular fa-clock"></i>
-            <p class="p1">Abierto Hoy</p>
-            <p class="p2">9am-5pm</p>
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-3 info-item">
+                <i class="fa-regular fa-clock"></i>
+                <p>Abierto Hoy</p>
+                <p>9am-5pm</p>
+            </div>
+            <div class="col-md-3 info-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Tiquetes</p>
+                <p>Compra y precios</p>
+            </div>
+            <div class="col-md-3 info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Visita</p>
+                <p>Servicio de transporte</p>
+            </div>
+            <div class="col-md-3 info-item">
+                <i class="fa-regular fa-calendar"></i>
+                <p>Eventos</p>
+                <p>Actividades diarias</p>
+            </div>
+                </div>
         </div>
-        <div class="info-item">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p class="p3"><a href="tiquetes.html">Tiquetes</a></p>
-            <p class="p4">Compra y precios</p>
+    </section>
+
+<footer>
+    <div class="footer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-section">
+                    <h3>Dirección</h3>
+                    <p>Tulsa Zoo & Living Museum</p>
+                    <p>6421 E 36th St N, Tulsa, OK 74115, USA</p>
+                    <p>Tel: +1 (918) 669-6600 | Email: info@tulsazoo.org</p>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h3>Horarios de Atención</h3>
+                    <p>Lunes a Domingo: 9:00 AM - 5:00 PM</p>
+                    <p>Última entrada permitida una hora antes del cierre.</p>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h3>Conéctate con Nosotros</h3>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h3>Apoya al Zoológico</h3>
+                    <p>¡Haz una donación hoy para ayudar a conservar la vida salvaje y mejorar las experiencias de
+                        nuestros visitantes!</p>
+                    <a href="#" class="btn btn-warning text-dark">Haz una donación</a>
+                </div>
+            </div>
         </div>
-        <div class="info-item">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="p5">Visita</p>
-            <p class="p6">Servicio de transporte</p>
-        </div>
-        <div class="info-item">
-            <i class="fa-regular fa-calendar"></i>
-            <p class="p7">Eventos</p>
-            <p class="p8">Actividades diarias</p>
-        </div>
-    </div>    
-    
     </div>
 
-    <div class="item4">
-        <div class="footer-container">
-            <div class="footer-section">
-                <h3>Dirección</h3>
-                <p>Tulsa Zoo & Living Museum</p>
-                <p>6421 E 36th St N, Tulsa, OK 74115, USA</p>
-                <p>Tel: +1 (918) 669-6600 | Email: info@tulsazoo.org</p>
-            </div>
-    
-            <div class="footer-section">
-                <h3>Horarios de Atención</h3>
-                <p>Lunes a Domingo: 9:00 AM - 5:00 PM</p>
-                <p>Última entrada permitida una hora antes del cierre.</p>
-            </div>
-    
-            <div class="footer-section">
-                <h3>Conéctate con Nosotros</h3>
-                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-                <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
-            </div>
-    
-            <div class="footer-section">
-                <h3>Apoya al Zoológico</h3>
-                <p>¡Haz una donación hoy para ayudar a conservar la vida salvaje y mejorar las experiencias de nuestros visitantes!</p>
-                <a href="#" class="btn-donacion">Haz una donación</a>
-            </div>
-        </div>
-    
-        <div class="footer-bottom">
-            <p>&copy; 2024 Tulsa Zoo. Todos los derechos reservados.</p>
-            <p><a href="#">Términos de uso</a> | <a href="#">Política de privacidad</a> | <a href="#">Mapa del sitio</a></p>
-        </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Tulsa Zoo. Todos los derechos reservados.</p>
+        <p><a href="#">Términos de uso</a> | <a href="#">Política de privacidad</a> | <a href="mapa.html">Mapa del sitio</a></p>
     </div>
-    
-</div>
+</footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
